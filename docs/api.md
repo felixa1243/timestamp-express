@@ -1,6 +1,7 @@
+<strong>This documentation is under construction </strong>
 <strong>API REFERENCE</strong>
 <br>
-<p style="text-align:justify;text-transform:lowercase;">WELCOME TO FCC TIMESTAMP, THIS SERVICE WILL PROVIDE YOU A TIMESTAMP STRING FOR YOUR DESIRED USAGE. </p><br>
+<p style="text-transform:lowercase;">WELCOME TO FCC TIMESTAMP, THIS SERVICE WILL PROVIDE YOU A TIMESTAMP STRING FOR YOUR DESIRED USAGE. </p><br>
 <strong>
 Feature
 </strong>
@@ -32,17 +33,25 @@ By using this, you are agree with our <strong><em>terms and service.</em>
 <br>
 <strong><p id="current">Getting current date&amp;time </p></strong>
 <textarea style="padding:.5em;background:#fcfcfc;" row="50" disabled>
-url/api/timestamp/now
+url/api/
 </textarea>
 <br>
 example usage: <br>
-http://localhost/api/timestamp/now
+http://localhost/api/
+<br>
+example output: <br>
+<textarea>
+{
+  unix:574674767,
+  utc:day,lorem ipsum,lorem ipsun, dolor eutas
+}
+</textarea>
 <br>
 <strong>Getting timestamp by timestring</strong> <br>
 <textarea disabled>
-url/api/timestamp/yyyy-mm-dd
+url/api/yyyy-mm-dd
 </textarea>
 <br>
 Example usage:
 <br>
-http://localhost/api/timestamp/2022-06-05
+http://localhost/api/2022-06-05
